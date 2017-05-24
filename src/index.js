@@ -1,8 +1,8 @@
+/**
+ * Created by 40681 on 2017/5/24.
+ */
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+import ReactDom from 'react-dom';
+import TodoApp from './TodoApp';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDom.render(<TodoApp/>,document.getElementById('root'));
